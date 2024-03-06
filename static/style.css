@@ -1,0 +1,39 @@
+
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+.head_conteiner {
+    font-size: 25px;
+    width: auto;
+    display: inline;
+    font-family: Arial, sans-serif;
+}
+
+li {
+    display: inline;
+}
+
+
+nav {
+    list-style-type: None;
+    text-align: right;
+}
+
+.n-link {
+    text-decoration: None;
+    margin-left: 40px;
+}
+
+main{
+    height: 500px;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}
+.li {
+    display: block;
+    margin:10px;
+}
