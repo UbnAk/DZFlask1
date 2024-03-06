@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/static/style.css">
+    <title>
+        {% block title %}
+            {{ title }}
+        {% endblock %}
+    </title>
+</head>
+<body>
+    <header>
+        <h1 class="head_conteiner">Интернет-магазин</h1>
+        <nav>
+            <li><a href="{{url_for('index')}}" class="n-link">Главная</a></li>
+            <li><a href="{{url_for('cloth')}}" class="n-link">Одежда</a></li>
+            <li><a href="{{url_for('shoes')}}" class ="n-link">Обувь</a></li>
+        </nav>
+    </header>
+    <main>
+        {% block content %}
+        <img src="https://www.megatoys24.ru/uploads/all/20/67/90/2067904898b38c794db9e5822552ae59.jpg" alt="Одежда" class = "image">
+        {% endblock %}
+    </main>
+    <footer>
+        <p>Все права защищены.</p>
+    </footer>
+</body>
+</html>
